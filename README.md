@@ -17,11 +17,9 @@ ResNet50: on line 175, change model to equal model = ResNet50().to(device) <br>
 
 ### Instructions on loading the dataset: 
 
-on the lines 159 and 163 attach the file location path for trainset and testset:
-
-trainset = torchvision.datasets.ImageFolder(root='./data/chest_xray/train', transform=transform)
-
-testset = torchvision.datasets.ImageFolder(root='./data/chest_xray/test', transform=transform)
+- on the lines 159 and 163 attach the file location path for trainset and testset:
+- trainset = torchvision.datasets.ImageFolder(root='./data/chest_xray/train', transform=transform)
+- testset = torchvision.datasets.ImageFolder(root='./data/chest_xray/test', transform=transform)
 
 
 
