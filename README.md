@@ -27,5 +27,4 @@ AlexNet produced the best results out of the 4 models. It’s final epoch return
 ![](/images/11.PNG)
 ***
 ![](/images/12.PNG)
-***
 ![](/images/13.PNG)
