@@ -21,5 +21,6 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 - trainset = torchvision.datasets.ImageFolder(root='./data/chest_xray/train', transform=transform)
 - testset = torchvision.datasets.ImageFolder(root='./data/chest_xray/test', transform=transform)
 
-
+### Results
+AlexNet produced the best results out of the 4 models. It’s final epoch returns an accuracy of 86%. Both ResNet50 and LeNet5 had similar results of 82% and 81% respectively. VGG16 had the lowest accuracy of 76%.
 
