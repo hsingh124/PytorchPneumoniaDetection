@@ -23,8 +23,5 @@ trainset = torchvision.datasets.ImageFolder(root='./data/chest_xray/train', tran
 
 testset = torchvision.datasets.ImageFolder(root='./data/chest_xray/test', transform=transform)
 
-### Results
-
-If you want to see how our models performed, check in the results folder. We have a PDF file of how all of our models performed.
 
 
