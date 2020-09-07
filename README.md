@@ -8,10 +8,10 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 ### Instructions for training particular models:
 
-AlexNet: on line 175, change model to equal model = AlexNet().to(device) <br>
-LeNet5: on line 175, change model to equal model = LeNet5().to(device) <br>
-VGG-16: on line 175, change model to equal model = vgg16().to(device) <br>
-ResNet50: on line 175, change model to equal model = ResNet50().to(device) <br>
+**AlexNet**: on line 175, change model to equal model = AlexNet().to(device) <br>
+**LeNet5**: on line 175, change model to equal model = LeNet5().to(device) <br>
+**VGG-16**: on line 175, change model to equal model = vgg16().to(device) <br>
+**ResNet50**: on line 175, change model to equal model = ResNet50().to(device) <br>
 
 ***
 
